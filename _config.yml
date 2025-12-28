@@ -23,7 +23,16 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "url: "https://mkhatshwa027-eng.github.io"   # No slash at the end!
+
+baseurl: "/Shopsavvy-sahara"   # Exact repo name, with slash, case-sensitive (S capital)
+
+title: ShopSavvy Sahara   # Your custom site name
+
+tagline: Best Deals & Honest Reviews   # Subtitle under the title
+
+description: >- 
+  Discover the best shopping deals, product reviews, and money-saving tips across tech, fashion, and more."
 
 github:
   username: github_username # change to your GitHub username
@@ -225,3 +234,5 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
         
+timezone: Africa/Johannesburg   # Or your local timezone
+avatar: /assets/img/avatar.png   # After you upload a profile pic
