@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +12,18 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V9IDJBNFW0"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-V9IDJBNFW0');
   </script>
 
   <style>
+    /* Basic reset and layout */
     body, html {
       margin: 0;
       padding: 0;
       height: 100%;
+      font-family: Arial, sans-serif;
     }
     .hero-bg {
       position: fixed;
@@ -31,26 +37,28 @@
     .hero-content {
       position: relative;
       z-index: 1;
-      color: white;
       text-align: center;
       top: 40%;
+      color: white;
       font-size: 2rem;
-      font-family: Arial, sans-serif;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
     }
   </style>
 </head>
 
 <body>
+  <!-- Hero Video Background -->
+  <video autoplay muted loop class="hero-bg">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-  <div style="height:100vh; display:flex; align-items:center; justify-content:center; background:#111; color:white;">
-  <h1>Shopsavvy Sahara</h1>
-  </div>
-    
-  
-
+  <!-- Hero Content -->
   <div class="hero-content">
-    <h1>Your Headline Here</h1>
+    <h1>Welcome to Shopsavvy Sahara</h1>
+    <p>Your shopping companion in the Sahara region</p>
   </div>
 
+  <!-- Optional: Other page content -->
 </body>
 </html>
