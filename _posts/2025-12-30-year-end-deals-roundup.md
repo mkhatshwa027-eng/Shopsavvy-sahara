@@ -5,50 +5,60 @@ date: 2025-12-30
 categories: deals gadgets fashion beauty home roundup sales
 img_path: /assets/img/
 header:
-  teaser: Earbud.jpg  # Local preview image
-banner: https://techpoint.africa/wp-content/uploads/2025/10/image-78-1024x682.png.webp
+  teaser: Earbud.jpg  # Your local image for small homepage preview
+banner: https://static.vecteezy.com/system/resources/previews/051/878/009/non_2x/christmas-sale-design-banner-happy-new-year-2025-gold-metallic-numbers-2025-with-shopping-bag-price-tag-gift-box-with-golden-bow-fly-helium-balloons-on-blue-background-vector.jpg
 ---
-
-<grok:render card_id="cadcd1" card_type="image_card" type="render_searched_image"><argument name="image_id">0</argument><argument name="size">"LARGE"</argument></grok:render>
 
 # Ultimate Year-End Deals Roundup 2025 🎉🛍️ Last-Minute Wins!
 
-2025 is wrapping up with INSANE sales across South Africa—Superbalist dropping up to 80% on summer stock, Bash slashing up to 70%, and Takealot/Makro clearing festive leftovers! Which category are you hitting first? These deals are flying off shelves—shop NOW before 2026 price hikes! 💥
+2025 is wrapping up with INSANE sales across South Africa—Superbalist up to 80% on summer stock, Bash up to 70%, Takealot/Makro clearing leftovers! Which steal are you grabbing first? Shop NOW before prices jump! 💥
 
 ### Gadgets & Tech Steals (Upgrade Alert!)
-Wireless earbuds and smart gadgets are trending HUGE—perfect for New Year vibes.
+Wireless earbuds and smart tech trending huge—perfect New Year treats.
 
-- **Wireless Earbuds** (like JBL/Sony styles) – From R499 (was R999) at Takealot/Incredible Connection lingering specials!<grok:render card_id="5e08d1,90581b" card_type="image_card_group" type="render_card"></grok:render>
+![Premium Wireless Earbuds Deal](https://media.cnn.com/api/v1/images/stellar/prod/bose-quiet-comfort-ultra-earbuds-03-fixed.jpg?c=original)<grok:render card_id="0f8a3c" card_type="image_card" type="render_searched_image"><argument name="image_id">4</argument><argument name="size">"LARGE"</argument></grok:render>
 
-- **Solar Power Banks** (load-shedding saviors) – Up to 50% off at Makro/Game.
+![Top True Wireless Earbuds 2025](https://media.cnn.com/api/v1/images/stellar/prod/new-project-2023-07-25t102604-234.jpg?c=16x9&q=h_720,w_1280,c_fill)<grok:render card_id="0406ff" card_type="image_card" type="render_searched_image"><argument name="image_id">3</argument><argument name="size">"LARGE"</argument></grok:render>
 
-Pro tip: Grab noise-cancelling buds for gym or commutes—battery life on these is next-level!
+- **Wireless Earbuds** (JBL/Sony/Bose styles) – From R499 (was R999+) at Takealot/Incredible Connection!
+- **Solar Power Banks** – Up to 50% off at Makro/Game (load-shedding essential).
+
+Noise-cancelling + long battery = game changer!
 
 ### Fashion Deals to Slay into 2026 👗✨
-Superbalist's End-of-Season Sale is FIRE—up to 80% on summer dresses, sneakers, shorts!
+Superbalist End-of-Season = FIRE—summer dresses & more up to 80% off!
 
-- **Summer Dresses & Outfits** – From R199 (Mango/Cotton On dupes) – perfect SA heat waves!<grok:render card_id="d5cc94,1093b7" card_type="image_card_group" type="render_card"></grok:render>
+![Trendy Summer Dresses 2025](https://media.glamour.com/photos/68792145d09516ae9145400e/16:9/w_3488,h_1962,c_limit/best-summer-dresses-july-2025.jpg)<grok:render card_id="d9c875" card_type="image_card" type="render_searched_image"><argument name="image_id">9</argument><argument name="size">"LARGE"</argument></grok:render>
 
-- **Sneakers & Tees** (Nike/Adidas inspired) – Starting R299 at Bash/Superbalist.
+![Hot Dress Trends 2025](https://media.glamourmagazine.co.uk/photos/677d36c7d9b66054326e07b3/16:9/w_1920,h_1080,c_limit/DRESS%20TRENDS%202025%20MAIN.jpg)<grok:render card_id="aa6835" card_type="image_card" type="render_searched_image"><argument name="image_id">10</argument><argument name="size">"LARGE"</argument></grok:render>
 
-Bold colors and denim everything—stock your wardrobe cheap!
+- **Summer Dresses & Outfits** – From R199 (Mango/Cotton On vibes) at Superbalist/Bash.
+- **Sneakers & Tees** – Starting R299 (Nike/Adidas inspired).
+
+Bold colors & flowy fits—perfect SA summer!
 
 ### Beauty Glow-Ups on Mega Discount 💄
-RetailBox & Bash up to 60% on luxury hair/skincare—glow into the new year!
+RetailBox/Bash up to 60% on luxury skincare & makeup—glow goals!
 
-- **Skincare Sets & Serums** (award-winners like The Ordinary dupes) – From R299 bundles.<grok:render card_id="6f09c9,2e7df9,d90622" card_type="image_card_group" type="render_card"></grok:render>
+![Luxury Clean Beauty Picks](https://www.hollywoodreporter.com/wp-content/uploads/2025/04/Hollywoods-Top-15-Clean-Beauty-Picks-Discounted-for-Credos-Annual-Sale-MAIN.jpg?w=1296&h=730&crop=1)<grok:render card_id="5450dc" card_type="image_card" type="render_searched_image"><argument name="image_id">6</argument><argument name="size">"LARGE"</argument></grok:render>
 
-- **Makeup Palettes & Tools** – Up to 50% off at Clicks/Bash.
+![Premium Skincare Deals 2025](https://www.hollywoodreporter.com/wp-content/uploads/2025/04/Amazon-Summer-Beauty-Sale-Event-main-2025.jpg?w=1296&h=730&crop=1)<grok:render card_id="863806" card_type="image_card" type="render_searched_image"><argument name="image_id">7</argument><argument name="size">"LARGE"</argument></grok:render>
 
-Natural hair care and facial gadgets stealing deals!
+- **Skincare Sets & Serums** (The Ordinary/award-winners) – Bundles from R299.
+- **Makeup Palettes** – Up to 50% off at Clicks/Bash.
+
+Hollywood-loved clean beauty—steal it!
 
 ### Home Upgrades for Fresh 2026 Vibes 🏡
-Kitchen gadgets and smart home on clearance at Makro/Takealot.
+Smart kitchen & cleaning on clearance at Makro/Takealot.
 
-- **Robot Vacuums & Air Fryers** – From R1999 (huge savings on essentials).<grok:render card_id="51e2dc,e22eb1" card_type="image_card_group" type="render_card"></grok:render>
+![Smart Air Fryer & Home Gadgets](https://mybroadband.co.za/news/wp-content/uploads/2024/11/MyBB-Syntech-headline-home-e1732266452716-600x338.jpg)<grok:render card_id="be8c94" card_type="image_card" type="render_searched_image"><argument name="image_id">13</argument><argument name="size">"LARGE"</argument></grok:render>
 
+![Robot Vacuum Deals](https://content.api.news/v3/images/bin/884a12482b8e1d2a3e1391f2b0edb037)<grok:render card_id="f84d51" card_type="image_card" type="render_searched_image"><argument name="image_id">14</argument><argument name="size">"LARGE"</argument></grok:render>
+
+- **Robot Vacuums & Air Fryers** – From R1999 (Xiaomi/Genesis huge savings).
 - **Bedding & Decor** – Up to 60% at Coricraft/Bash.
 
-Make your space cozy and smart—limited stock!
+Effortless clean & cook—yes please!
 
-These are the hottest year-end steals in SA right now—don't sleep on them! What's going in your cart? Tag your hauls. Happy shopping, Sahara squad! 🇿🇦🎆
+These year-end steals are limited—don't miss out! What's in your cart? Share your hauls below. Happy shopping, Sahara squad! 🇿🇦🎆
