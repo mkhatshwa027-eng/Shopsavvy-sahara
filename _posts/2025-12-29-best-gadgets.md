@@ -1,5 +1,11 @@
 ---
 title: Best Gadgets & Deals to Buy Right Now in 2025
+date: 2025-12-28
+categories: [gadgets, tech, deals]
+img: /assets/img/Earbud.jpg  # Change to Myphone.jpg if it fits better
+---
+---
+title: Best Gadgets & Deals to Buy Right Now in 2025
 date: 2025-12-29
 categories: gadgets, tech, deals
 img_path: /assets/img/
