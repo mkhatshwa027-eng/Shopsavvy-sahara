@@ -1,0 +1,17 @@
+<head>
+  {% include head/base.html %}
+  {% include head/meta.html %}
+  {% include head/resources.html %}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V91DJBNFW0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V91DJBNFW0');
+  </script>
+
+  {% include head/custom.html %}  <!-- Optional spot for future custom code -->
+</head>
