@@ -117,3 +117,31 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 google_analytics: G-V9IDJBNFW0
+title: ShopSavvy Sahara
+tagline: Best Deals & Honest Reviews in South Africa
+description: >-
+  Honest shopping deals, product reviews, and trends for gadgets, fashion, beauty, and home in 2025.
+url: "https://mkhatshwa027-eng.github.io/Shopsavvy-sahara"
+avatar: /assets/img/Earbud.jpg  # Add your main logo/image here (or Myphone.jpg)
+
+# Chirpy options
+theme_mode: dual  # or 'dark' if you prefer
+img_banner: true  # Enables banner images on posts
+
+# Sidebar
+sidebar:
+  enabled: true
+  categories: true
+  tags: true
+  recent_posts: 5
+
+# Homepage
+paginate: 10
+excerpt_link: "Read More →"
+
+# Social links (optional – add yours)
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/yourhandle
+    - https://github.com/mkhatshwa027-eng
