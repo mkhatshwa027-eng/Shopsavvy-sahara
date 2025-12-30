@@ -1,8 +1,9 @@
 ---
-title: Best Gadgets & Deals to Buy Right Now in 2025
-date: 2025-12-28
-categories: [gadgets, tech, deals]
-img: /assets/img/Earbud.jpg  # Change to Myphone.jpg if it fits better
+layout: post
+title: "Your Post Title Here"  # e.g., Best Gadgets & Deals to Buy Right Now in 2025
+date: 2025-12-29  # Match the file date
+categories: gadgets tech deals  # Space-separated, no brackets
+banner: /assets/img/Earbud.jpg  # Change per post – suggestions below
 ---
 ---
 title: Best Gadgets & Deals to Buy Right Now in 2025
