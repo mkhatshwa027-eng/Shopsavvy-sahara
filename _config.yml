@@ -38,7 +38,7 @@ social:
 avatar: /assets/img/avatar.jpg
 
 # Prefer color scheme (leave empty for auto dark/light toggle)
-theme_mode:
+theme_mode: auto
 
 # Table of contents in posts
 toc: true
