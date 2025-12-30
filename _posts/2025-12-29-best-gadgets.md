@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Post Title Here"  # e.g., Best Gadgets & Deals to Buy Right Now in 2025
+title: "Best tech on offer righ tnow"  # e.g., Best Gadgets & Deals to Buy Right Now in 2025
 date: 2025-12-29  # Match the file date
 categories: gadgets tech deals  # Space-separated, no brackets
 banner: /assets/img/Earbud.jpg  # Change per post – suggestions below
