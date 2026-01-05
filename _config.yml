@@ -1,65 +1,45 @@
-# The Site Configuration
+# SITE BASICS
+title: "ShopSavvy Sahara"
+tagline: "Best Deals & Honest Reviews in South Africa"
+description: "Honest shopping deals, product reviews, and trends for gadgets, fashion, beauty, and home in 2025."
 
-# Import the theme
-theme: jekyll-theme-chirpy
-
-# The language of the webpage
 lang: en
-
-# Change to your timezone
 timezone: Africa/Johannesburg
 
-# jekyll-seo-tag settings
-title: ShopSavvy Sahara
-
-tagline: Best Deals & Honest Reviews
-
-description: >-
-  Discover the best shopping deals, product reviews, and money-saving tips across tech, fashion, and more.
-
-# Correct URL and baseurl for project site
+# URL SETTINGS
 url: "https://mkhatshwa027-eng.github.io"
-
 baseurl: "/Shopsavvy-sahara"
 
-github:
-  username: mkhatshwa027-eng  # change if you want
+# THEME
+theme: jekyll-theme-chirpy
+theme_mode: auto
+img_banner: true
 
-twitter:
-  username:  # add your Twitter if you have one
-
+# AUTHOR
 social:
-  name: Siyabonga Mkhatshwa  # change to your real name
-  email: mkhatshwa027@gmail.com # optional
+  name: "Siyabonga Mkhatshwa"
+  email: "mkhatshwa027@gmail.com"
   links:
     - https://github.com/mkhatshwa027-eng
     - https://pin.it/76LvaogSH
-# Avatar (upload your photo first!)
-avatar: /assets/img/avatar.jpg
 
-# Prefer color scheme (leave empty for auto dark/light toggle)
-theme_mode: auto
+avatar: /assets/img/Earbud.jpg
 
-# Table of contents in posts
-toc: true
+# GOOGLE ANALYTICS
+google_analytics: "G-91DJBNFWD"
 
-# Progressive Web App (installable)
-pwa:
+# SIDEBAR
+sidebar:
   enabled: true
+  categories: true
+  tags: true
+  recent_posts: 5
 
-# Pagination
+# POSTS
 paginate: 10
+excerpt_link: "Read More →"
 
-# DO NOT change anything below unless you know what you're doing
-kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    block:
-      line_numbers: true
-      start_line: 1
-
+# COLLECTIONS
 collections:
   tabs:
     output: true
@@ -74,40 +54,19 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
-  - scope:
-      path: _drafts
-    values:
-      comments: false
-  - scope:
-      path: ""
-      type: tabs
-    values:
-      layout: page
-      permalink: /:title/
 
+# SASS
 sass:
   style: compressed
 
+# HTML COMPRESSION
 compress_html:
   clippings: all
   comments: all
   endings: all
-  profile: false
   blanklines: false
-  ignore:
-    envs: [development]
 
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - purgecss.js
-  - "*.config.js"
-  - "package*.json"
-
+# ARCHIVES
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
@@ -116,33 +75,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-google_analytics: G-V9IDJBNFW0
-title: ShopSavvy Sahara
-tagline: Best Deals & Honest Reviews in South Africa
-description: >-
-  Honest shopping deals, product reviews, and trends for gadgets, fashion, beauty, and home in 2025.
-url: "https://mkhatshwa027-eng.github.io/Shopsavvy-sahara"
-avatar: /assets/img/Earbud.jpg  # Add your main logo/image here (or Myphone.jpg)
-
-# Chirpy options
-theme_mode: dual  # or 'dark' if you prefer
-img_banner: true  # Enables banner images on posts
-
-# Sidebar
-sidebar:
-  enabled: true
-  categories: true
-  tags: true
-  recent_posts: 5
-
-# Homepage
-paginate: 10
-excerpt_link: "Read More →"
-
-# Social links (optional – add yours)
-social:
-  name: Siyabonga Mkhatshwa 
-  links:
-    - https://twitter.com/yourhandle
-    - https://github.com/mkhatshwa027-eng
-google_analytics: G-91DJBNFWD
