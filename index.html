@@ -1,184 +1,106 @@
+
 ---
-layout: home
+layout: none
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shopsavvy Sahara</title>
+  <title>ShopSavvy Sahara</title>
 
-  <!-- Mobile responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SEO meta -->
-  <meta name="description" content="Shopsavvy Sahara – Your shopping companion in the Sahara region.">
-  <meta name="keywords" content="shopping, Sahara, online, products, deals">
-  <meta property="og:title" content="Shopsavvy Sahara">
-  <meta property="og:description" content="Your shopping companion in the Sahara region.">
-  <meta property="og:image" content="hero.jpg">
-  <meta property="og:url" content="https://mkhatshwa027-eng.github.io/Shopsavvy-sahara/">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- SEO -->
+  <meta name="description" content="ShopSavvy Sahara – Best Deals & Honest Reviews in South Africa">
+  <meta property="og:title" content="ShopSavvy Sahara">
+  <meta property="og:description" content="Best Deals & Honest Reviews in South Africa">
+  <meta property="og:image" content="{{ '/assets/home/hero.jpg' | relative_url }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
 
-  <!-- Google Analytics (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-91DJBNFWD"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-91DJBNFWD');
+    gtag('config', '{{ site.google_analytics }}');
   </script>
 
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: Arial, sans-serif;
-    }
-
-    /* Hero video */
-    .hero-bg {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -1;
-    }
-
-    /* Hero content */
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      top: 35%;
-      color: white;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
-    }
-
-    .hero-content h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-
-    .hero-content p {
-      font-size: 1.5rem;
-      margin: 10px 0;
-    }
-
-    .cta-btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #ff6600;
-      color: white;
-      font-weight: bold;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-
-    /* AdSense container */
-    .ads-container {
-      text-align: center;
-      margin: 20px 0;
-    }
-
-    /* Content section */
-    #shop {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    footer {
-      background: #111;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .hero-content h1 { font-size: 2rem; }
-      .hero-content p { font-size: 1rem; }
-      .cta-btn { font-size: 0.9rem; }
-    }
-
-    @media (max-width: 480px) {
-      .hero-content h1 { font-size: 1.5rem; }
-      .hero-content p { font-size: 0.9rem; }
-      .cta-btn { font-size: 0.8rem; }
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V91DJBNFW0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-V91DJBNFW0');
-</script>
 <body>
 
-  <!-- Hero Video -->
-  <video autoplay muted loop class="hero-bg" poster="hero.jpg">
-    <source src="video.mp4" type="video/mp4">
-    <img src="assets/img.jpg" alt="Shopsavvy Sahara" class="hero-bg">
-  </video>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">ShopSavvy Sahara</div>
 
-  <!-- Hero Content -->
-  <div class="hero-content">
-    <h1>Welcome to Shopsavvy Sahara</h1>
-    <p>Your shopping companion in the Sahara region</p>
-    <a href="#shop" class="cta-btn">Shop Now</a>
-  </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="/posts/">Reviews</a>
+        <a href="/about/">About</a>
+      </nav>
 
-  <!-- AdSense Placeholder -->
-  <div class="ads-container">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
-         data-ad-slot="xxxxxxxxxx"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <!-- Products -->
-  <div id="shop">
-    <h2>Our Products</h2>
-    <p>Explore the best deals and products available in the Sahara region.</p>
-
-    <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-      <div style="border:1px solid #ccc; padding:20px; width:250px; text-align:center;">
-        <h3>Product 1</h3>
-        <p>Description of Product 1.</p>
-      </div>
-
-      <div style="border:1px solid #ccc; padding:20px; width:250px; text-align:center;">
-        <h3>Product 2</h3>
-        <p>Description of Product 2.</p>
-      </div>
-
-      <div style="border:1px solid #ccc; padding:20px; width:250px; text-align:center;">
-        <h3>Product 3</h3>
-        <p>Description of Product 3.</p>
-      </div>
+      <div class="menu-toggle">☰</div>
     </div>
-  </div>
+  </header>
 
-  <footer>
-    <p>&copy; 2025 Shopsavvy Sahara. All rights reserved.</p>
-    <a href="privacy.html" style="color:#fff; margin-right:15px;">Privacy Policy</a>
-    <a href="disclosure.html" style="color:#fff;">Disclosure</a>
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <video autoplay muted loop class="hero-bg">
+      <source src="{{ '/assets/home/video.mp4' | relative_url }}" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>Welcome to ShopSavvy Sahara</h1>
+      <p>Best Deals • Honest Reviews • Smart Shopping</p>
+      <a href="#shop" class="cta-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="shop" class="products">
+    <h2>Featured Products</h2>
+    <p>Explore top deals curated for South African shoppers.</p>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="{{ '/assets/products/product1.jpg' | relative_url }}" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Short description of product 1.</p>
+      </div>
+
+      <div class="product-card">
+        <img src="{{ '/assets/products/product2.jpg' | relative_url }}" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Short description of product 2.</p>
+      </div>
+
+      <div class="product-card">
+        <img src="{{ '/assets/products/product3.jpg' | relative_url }}" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>Short description of product 3.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 ShopSavvy Sahara. All rights reserved.</p>
+    <a href="/privacy.html">Privacy Policy</a> |
+    <a href="/disclosure.html">Disclosure</a>
   </footer>
+
+  <!-- Custom JS -->
+  <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
 
 </body>
 </html>
