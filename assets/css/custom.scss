@@ -1,0 +1,26 @@
+/* Custom branding for ShopSavvy Sahara */
+
+:root {
+  --brand-primary: #ff6600;
+  --brand-dark: #111;
+  --brand-light: #ffffff;
+  --brand-accent: #f4a261;
+  --brand-bg: #fafafa;
+}
+
+body {
+  background: var(--brand-bg);
+}
+
+.btn, .cta-btn {
+  background: var(--brand-primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover, .cta-btn:hover {
+  background: var(--brand-accent);
+}
